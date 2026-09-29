@@ -1,3 +1,9 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
@@ -30,4 +36,52 @@ nav ul {
 
 nav ul li a {
   color: white;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr max-content;
+}
+
+main {
+  min-width: 300px;
+  max-width: 700px;
+  margin: 2.5rem 5rem;
+}
+
+main h2 {
+  text-align: center;
+}
+
+.studio-img {
+  width: 100%;
+  padding: 0 0.8rem;
+}
+
+.p-title {
+  text-align: center;
+}
+
+.woman-img,
+.man-img {
+  width: 100%;
+}
+
+aside {
+  border: 3px solid #2e294e;
+  margin: 2.5rem 2.5rem;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.7rem;
+  height: max-content;
+}
+
+aside h3 {
+  margin: 0 0 1rem 0;
+}
+
+.names {
+  font-weight: bold;
 }
