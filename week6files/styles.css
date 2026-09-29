@@ -85,3 +85,20 @@ aside h3 {
 .names {
   font-weight: bold;
 }
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: #2e294e;
+}
+
+footer ul {
+  display: flex;
+  gap: 0.5rem;
+  list-style-type: none;
+  padding: 2rem;
+}
+
+footer ul li {
+  color: white;
+}
