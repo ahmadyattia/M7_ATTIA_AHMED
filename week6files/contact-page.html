@@ -26,19 +26,19 @@
       <form id="contact-form" action="" method="">
         <div class="flex-col">
           <label for="fName">First Name<span class="asterisk">*</span></label>
-          <input id="fName" />
+          <input id="fName" maxlength="100" />
         </div>
         <div class="flex-col">
           <label for="lName">Last Name<span class="asterisk">*</span></label>
-          <input id="lName" />
+          <input id="lName" maxlength="100" />
         </div>
         <div class="flex-col">
           <label for="email">Email<span class="asterisk">*</span></label>
-          <input id="email" />
+          <input id="email" type="email" />
         </div>
         <div class="flex-col">
           <label for="message">Message<span class="asterisk">*</span></label>
-          <textarea id="message"></textarea>
+          <textarea id="message" maxlength="1000"></textarea>
         </div>
         <button>Submit</button>
       </form>
