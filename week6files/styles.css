@@ -19,14 +19,14 @@ body {
   margin: 1rem;
 }
 
-nav {
+.navbar {
   padding: 1.5rem;
   background-color: #2e294e;
   display: flex;
   justify-content: center;
 }
 
-nav ul {
+.navbar ul {
   list-style-type: none;
   display: flex;
   gap: 1rem;
@@ -34,7 +34,7 @@ nav ul {
   margin: 0;
 }
 
-nav ul li a {
+.navbar ul li a {
   color: white;
 }
 
@@ -43,13 +43,13 @@ nav ul li a {
   grid-template-columns: 1fr max-content;
 }
 
-main {
+#home-main {
   min-width: 300px;
   max-width: 700px;
   margin: 2.5rem 5rem;
 }
 
-main h2 {
+#home-main h2 {
   text-align: center;
 }
 
@@ -67,7 +67,7 @@ main h2 {
   width: 100%;
 }
 
-aside {
+#home-aside {
   border: 3px solid #2e294e;
   margin: 2.5rem 2.5rem;
   width: 250px;
@@ -78,7 +78,7 @@ aside {
   height: max-content;
 }
 
-aside h3 {
+.home-aside h3 {
   margin: 0 0 1rem 0;
 }
 
@@ -86,19 +86,19 @@ aside h3 {
   font-weight: bold;
 }
 
-footer {
+.footer {
   display: flex;
   justify-content: center;
   background-color: #2e294e;
 }
 
-footer ul {
+.footer ul {
   display: flex;
   gap: 0.5rem;
   list-style-type: none;
   padding: 2rem;
 }
 
-footer ul li {
+.footer ul li {
   color: white;
 }
